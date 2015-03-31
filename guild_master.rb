@@ -1,4 +1,4 @@
-class GuldMaster
+class GuildMaster
 	def initialize (name,rank)
 		@name = name
 		@rank = rank
