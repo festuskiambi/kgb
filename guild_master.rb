@@ -1,4 +1,7 @@
+
+require_relative 'skills.rb'
 class GuildMaster
+	include skills
 	def initialize (name,rank)
 		@name = name
 		@rank = rank
@@ -10,3 +13,4 @@ class GuildMaster
 
 end 
 p faith = GuldMaster.new("faith","gm")
+faith.kill
