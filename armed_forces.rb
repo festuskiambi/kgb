@@ -4,4 +4,4 @@ class ArmedForces < GuildMaster
 end
 
 p ian  =ArmedForces.new("Ian","Af")
-	ian.strategize
+p ian .kill
